@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Funds Image Analysis for Glaucoma Detection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        .login-main-ccontainer {
+            min-height: 100vh;
+            width: 100vw;
+            background-color: #0d3e8c;
+            color: white;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        
+        .sub-container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .image {
+            width: 300px;
+            height: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            margin-left: 20px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        .about {
+            background-color: transparent;
+            border: none;
+            height: fit-content;
+            color: white;
+            cursor: pointer;
+            margin-top: 30px;
+            font-size: 25px;
+        }
+        
+        .buttons-con {
+            margin-top: 20px;
+        }
+        
+        .sub-container2 {
+            width: 75%;
+            display: block;
+            flex-grow: 1;
+            text-align: center;
+            margin: auto;
+            margin-top: 150px;
+        }
+        
+        .line {
+            margin-top: 30px;
+        }
+        
+        .para {
+            margin-top: 20px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-main-ccontainer">
+        <div class="sub-container">
+            <button class="about" onclick="window.location.href='/about'">About Analyzer</button>
+            <img src="https://res.cloudinary.com/dmsebahwn/image/upload/v1727527050/WhatsApp_Image_2024-09-28_at_18.05.35_85a88c08_kct6sp.jpg" class="image" alt="Glaucoma Analyzer" />
+            <div class="buttons-con">
+                <button class="button" onclick="window.location.href='/login'">Login</button>
+                <button class="button" onclick="window.location.href='/register'">Signup</button>
+            </div>
+        </div>
+        <div class="sub-container2">
+            <h1>Automated Funds Image Analysis for Glaucoma Detection</h1>
+            <hr class="line"/>
+            <p class="para">A Smart AI Glaucoma Analyzer: The Future of Vision Preservation</p>
+        </div>
+    </div>
+</body>
+</html>

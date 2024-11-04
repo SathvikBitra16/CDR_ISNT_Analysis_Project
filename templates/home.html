@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail/Pay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        .home {
+            min-height: 100vh;
+            width: 100vw;
+            background-color: #0d3e8c;
+            color: white;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        h1{
+            margin-left: 40%;
+            position: relative;
+            top: 80px;
+            font-size:40px;
+        }
+
+        .p-one{
+            position: relative;
+            top: 100px;
+            margin-left: 43%;
+        }
+
+        .p-two{
+            position: relative;
+            top: 170px;
+        }
+
+        .list-points{
+            position: relative;
+            top: 180px;
+        }
+
+        .make-suggest{
+            position: relative;
+            top: 190px;
+        }
+
+        .payment-btns{
+            position: relative;
+            top: -180px;
+            margin-left: 13%;
+        }
+
+        .trail-btn{
+            margin-right: 40px;
+            margin-left: -38px;
+        }
+
+        .pay-btn{
+            margin-left: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .button {
+            padding: 15px 20px;
+            border: none;
+            outline: none;
+            background-color: #151515;
+            color: #ffffff;
+            border-radius: 7px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+          
+        .button:hover {
+            transform: translateY(-3px);
+        }
+
+        .p-info{
+            width: 40%;
+            margin-left: 4%;
+        }
+        
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+    
+          .image-section img {
+            max-width: 50%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px;
+            position: relative;
+            top: -110px;
+            right: -400px;
+          }
+
+
+    </style>
+</head>
+<body>
+    <div class="home">
+        <h1>Image Analysis</h1>
+        <p class="p-one">Your Vision, Secured for Life</p><br><br>
+        <div class="p-info">
+            <p class="p-two">Early detection of glaucoma can mean the difference between clear vision and blindness. Our AI-powered Automated Fundus Image Analysis tool gives you peace of mind by identifying signs of glaucoma early, well before symptoms appear.</p>
+            
+            <ul class="list-points">
+                <li><span class="list-keys">Fast &amp; Reliable: </span>Instant results backed by cutting-edge AI, eliminating the need for multiple appointments.</li>
+                <li><span class="list-keys">Accessible: </span>Detect glaucoma from the comfort of your home, using just a smartphone and fundus image.</li>
+                <li><span class="list-keys">Life-Changing: </span>Prevent vision loss before it's too late, with real-time insights and professional-grade accuracy.</li>
+            </ul>
+            <p class="make-suggest">Invest in your vision today for a clearer tomorrow. Your eyes deserve the best care.</p>
+        </div>
+        <div class="image-section">
+            <img src="static/images/trailImage.png" alt="Registration Page Image">
+        </div>
+        <div class="payment-btns">
+            <button class="button trail-btn"><a href="/image">1 Week Free Trial?</a></button>
+            <button class="button pay-btn"><a href="/image">Make Payment</a></button>
+        </div>
+    </div>
+</body>
+</html>
